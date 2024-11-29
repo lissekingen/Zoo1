@@ -109,7 +109,7 @@ class Program{
    static void Main(){
 Zoo Zoo1 = new Zoo();
     bool klar = false;
-    while (klar){
+    while (!klar){
     Console.Clear();
     Console.WriteLine("tryck q för att exit \n tryck a för att add \n Tryck r för att remove \n tryck f för att first");
     string chooseanimal;
