@@ -107,6 +107,7 @@ public void Speak(string Parrotspeak){
 class Program{
  
    static void Main(){
+    Console.ReadKey();
 Zoo Zoo1 = new Zoo();
     bool klar = false;
     while (!klar){
