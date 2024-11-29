@@ -1,0 +1,4 @@
+C:\Users\le1244\OneDrive - LYSTKOM\prg 2\Projekt\Ny inläming\Animal zoo\obj\Debug\net8.0\Animal zoo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\le1244\OneDrive - LYSTKOM\prg 2\Projekt\Ny inläming\Animal zoo\obj\Debug\net8.0\Animal zoo.AssemblyInfoInputs.cache
+C:\Users\le1244\OneDrive - LYSTKOM\prg 2\Projekt\Ny inläming\Animal zoo\obj\Debug\net8.0\Animal zoo.AssemblyInfo.cs
+C:\Users\le1244\OneDrive - LYSTKOM\prg 2\Projekt\Ny inläming\Animal zoo\obj\Debug\net8.0\Animal zoo.csproj.CoreCompileInputs.cache
