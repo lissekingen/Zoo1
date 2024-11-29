@@ -60,9 +60,9 @@ class Cat :Mamal{
     {Console.WriteLine($"Hej där. Jag heter {name} och är {age} år gammal");
        
     }
-public Cat(string kattnamn,int kattålder){
-  name = kattnamn;
-  age = kattålder;
+public Cat(string catname,int catage){
+  name = catname;
+  age = catage;
   isNocturnal = true;
 }
 }
@@ -80,9 +80,9 @@ class Penguin :Bird{
     {Console.WriteLine($"Hej där. Jag heter {name} och är {age} år gammal");
        
     }
-     public Penguin(string Penguinnamn,int Penguinålder){
-  name = Penguinnamn;
-  age = Penguinålder;
+     public Penguin(string Penguinname,int Penguinage){
+  name = Penguinname;
+  age = Penguinage;
   canFly = false;
 
 }
@@ -97,9 +97,9 @@ public void Speak(string Parrotspeak){
  Console.WriteLine(Parrotspeak);
   
 }
-     public Parrot(string Parrotnamn,int Parrotålder){
-  name = Parrotnamn;
-  age = Parrotålder;
+     public Parrot(string Parrotname,int Parrotage){
+  name = Parrotname;
+  age = Parrotage;
   canFly = true;
 }
 
@@ -112,7 +112,7 @@ Zoo Zoo1 = new Zoo();
     while (klar){
     Console.Clear();
     Console.WriteLine("tryck q för att exit \n tryck a för att add \n Tryck r för att remove \n tryck f för att first");
-    string väljdjur;
+    string chooseanimal;
   switch(Console.ReadKey().KeyChar){
     case 'q':
     Console.WriteLine("Tack för besöket på mitt zoo");
@@ -120,13 +120,13 @@ Zoo Zoo1 = new Zoo();
     break;
     case 'a':
     Console.WriteLine("Vilket djur vill du välja?(Cat, Parrot, Penguin, Ant)");
-väljdjur = Console.ReadLine();
-switch(väljdjur){
+chooseanimal = Console.ReadLine();
+switch(chooseanimal){
   case "cat":
   string animalname = Console.ReadLine();
   int animalage = Convert.ToInt32(Console.ReadLine());
-  Cat nykatt = new Cat(animalname,animalage);
-   Zoo1.addAnimal(nykatt);
+  Cat newcat = new Cat(animalname,animalage);
+   Zoo1.addAnimal(newcat);
    break;
   
   case "parrot":
