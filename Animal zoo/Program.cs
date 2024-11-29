@@ -106,7 +106,7 @@ public void Speak(string Parrotspeak){
 }
 class Program{
  
-   static void main(){
+   static void Main(){
 Zoo Zoo1 = new Zoo();
     bool klar = false;
     while (klar){
@@ -147,12 +147,12 @@ switch(chooseanimal){
    
     break;
     case 'r':
-    Console.WriteLine("skriv in det index du vill ta bort");
+    Console.WriteLine("write the index you want to remove");
      int remove1 = Convert.ToInt32(Console.ReadLine());
      if(0<=remove1 && remove1 < Zoo1.animals.Count()){
      Zoo1.removeAnimal(remove1);
      }else{
-      Console.WriteLine($"index {remove1} fanns inte");
+      Console.WriteLine($"index {remove1} does not exist");
      }
     break;
     case 'f':
