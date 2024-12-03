@@ -38,7 +38,7 @@ public bool haswings;
  
 class Ant :Bug{
     public override void greeting()
-    {Console.WriteLine($"Hej där. Jag heter {name} och är {age} år gammal");
+    {Console.WriteLine($"Hi there. My name is {name} and my age is {age} years old");
        
     }
    public Ant(string Antname,int Antage){
@@ -57,7 +57,7 @@ public bool isAsleep;
 class Cat :Mamal{
  
    public override void greeting()
-    {Console.WriteLine($"Hej där. Jag heter {name} och är {age} år gammal");
+    {Console.WriteLine($"Hi there. My name is {name} and my age is {age} years old");
        
     }
 public Cat(string catname,int catage){
@@ -77,7 +77,7 @@ public void fly(int meter){
 
 class Penguin :Bird{
  public override void greeting()
-    {Console.WriteLine($"Hej där. Jag heter {name} och är {age} år gammal");
+    {Console.WriteLine($"Hi there. My name is {name} and my age is {age} years old");
        
     }
      public Penguin(string Penguinname,int Penguinage){
@@ -90,7 +90,7 @@ class Penguin :Bird{
  
 class Parrot : Bird{
    public override void greeting()
-    {Console.WriteLine($"Hej där. Jag heter {name} och är {age} år gammal");
+    {Console.WriteLine($"Hi there. My name is {name} and my age is {age} years old");
        
     }
 public void Speak(string Parrotspeak){
@@ -112,15 +112,15 @@ Zoo Zoo1 = new Zoo();
     bool klar = false;
     while (!klar){
     Console.Clear();
-    Console.WriteLine("tryck q för att exit \n tryck a för att add \n Tryck r för att remove \n tryck f för att first");
+    Console.WriteLine("Press q for exit \n Press a to add \n Press r to remove \n Press f to see the first");
     string chooseanimal;
   switch(Console.ReadKey().KeyChar){
     case 'q':
-    Console.WriteLine("Tack för besöket på mitt zoo");
+    Console.WriteLine("Thanks for your visit");
     klar = true;
     break;
     case 'a':
-    Console.WriteLine("Vilket djur vill du välja?(Cat, Parrot, Penguin, Ant)");
+    Console.WriteLine("What animal do you want to meet first?(Cat, Parrot, Penguin, Ant)");
 chooseanimal = Console.ReadLine();
 switch(chooseanimal){
   case "cat":
@@ -148,7 +148,7 @@ switch(chooseanimal){
    
     break;
     case 'r':
-    Console.WriteLine("write the index you want to remove");
+    Console.WriteLine("Write the index you want to remove");
      int remove1 = Convert.ToInt32(Console.ReadLine());
      if(0<=remove1 && remove1 < Zoo1.animals.Count()){
      Zoo1.removeAnimal(remove1);

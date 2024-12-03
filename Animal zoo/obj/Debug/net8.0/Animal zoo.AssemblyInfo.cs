@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Animal zoo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42f6a1f1723a64bb7d1cc6d3b791ec027291d2ba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22fb75b1feaba8e11d4fe23df816b43c675f4e55")]
 [assembly: System.Reflection.AssemblyProductAttribute("Animal zoo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Animal zoo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
